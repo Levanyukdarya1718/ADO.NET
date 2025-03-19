@@ -51,7 +51,7 @@ namespace ADO.NET
                     //Console.WriteLine($"{reader[0]}\t{reader[1]}\t{reader[2]}");
                 }
             }
-            //6)закрываем SqlDataReader 
+            //6)закрываем SqlDataReader  
             reader.Close();
             connection.Close();
             Console.Read();
