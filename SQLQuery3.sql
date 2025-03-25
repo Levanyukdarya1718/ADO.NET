@@ -1,0 +1,1 @@
+﻿IF NOT EXISTS (SELECT director_id FROM Directors WHERE first_name = N'Brian' AND last_name =  N'De Palma') BEGIN INSERT Directors(first_name,last_name) VALUES (N'Brian', N'De Palma') END
